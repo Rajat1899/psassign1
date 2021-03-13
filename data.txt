@@ -1,0 +1,11 @@
+git is needed because our projects evolve with time but recording changes in computer will lead to too much storage as we'll be keeeping same projects( but diff versions) of large sizes in our hard disk . so, for version control, we need git
+version control system:
+  keep track of files
+  easily recover files( suppose if we delete files in one version, then they can be easily recovered.)
+  who inttrouced an issue nd when (so if many people are making commits on same file , we can know whose commit caused issues in project, so that we can rollback)
+  roll back to prev working state
+
+history of vcs
+
+local vcs [connected with database(db)]( db to keep track of files) in this we can keep track of files, rollback etc. buyt if data is lost then whole project and db lost too.
+considered as progress in comparision to storing diff zip files of same project.
